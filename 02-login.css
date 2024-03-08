@@ -59,7 +59,7 @@ a {
 }
 
 .input-box input {
-  width: 80%;
+  width: 100%;
   padding: 8px;
   border: 1.5px solid black;
   outline: none;
@@ -82,7 +82,7 @@ a {
 }
 
 .submit {
-  width: 85%;
+  width: 100%;
   border: none;
   border-radius: 20px;
   background-color: transparent;
@@ -109,7 +109,7 @@ a {
 }
 
 .remember-forgot {
-  gap: 100px;
+  gap: 80px;
   display: flex;
   justify-content: center;
   padding: 0px 0px 10px 0px;
@@ -117,4 +117,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+p, a, label{
+  font-size: 14px;
 }
